@@ -4,5 +4,8 @@
     --bg-gray: #EBECEE;
     --bg-white: #FFF;
 
+    --color-blue-deg: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --color-orange: #EB9B00;
+
     --fontPoppins: 'Poppins', sans-serif;
 }
