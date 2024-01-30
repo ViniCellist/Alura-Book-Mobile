@@ -15,7 +15,7 @@
             height: 2rem;
             background-image: url("../images/icons/menu-fechado.png");
             background-repeat: no-repeat;
-            background-size: cover;
+            background-position: center;
             display: inline-block;
         }
 
@@ -29,7 +29,9 @@
             top: 100%;
             width: 60vw;
         }
-
+        .container__btn {
+            display: none;
+        }
         .container__btn:checked ~ .list-menu {
             display: block;
         }
