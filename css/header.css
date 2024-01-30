@@ -36,6 +36,15 @@
             display: block;
         }
 
+        .container__btn:checked ~ label {
+            background: var(--color-blue-deg);
+        }
+        
+        .container__btn:checked ~ label .header__menu-hamburger {
+            background-image: url("../images/icons/menu-aberto.png");
+
+        }
+
         .list-menu__title, .list-menu__item {
             padding: 1rem;
             background-color: var(--bg-white);
@@ -43,13 +52,11 @@
 
         .list-menu__title {
             color: var(--color-orange);
-            font-family: var(--fontPoppins);
             font-size: 1rem;
             font-weight: 700;
         }
 
         .list-menu__item {
-            font-family: var(--fontPoppins);
             font-weight: 400;
         }
 
