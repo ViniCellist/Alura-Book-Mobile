@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url("header.css");
+@import url("banner.css");
 
 body {
     background-color: var(--bg-gray);
+    font-family: var(--fontPoppins);
+    font-size: 1rem;
+    font-weight: 400;
 }
