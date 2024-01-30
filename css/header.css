@@ -1,0 +1,23 @@
+.header__container {
+    background-color: var(--bg-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .header__container-nav {
+        display: flex;
+        align-items: center;
+    }
+
+        .header__menu-hamburger {
+            width: 2rem;
+            height: 2rem;
+            background-image: url("../images/icons/menu-fechado.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: inline-block;
+        }
+
+        .container__img {
+            padding: 1rem;
+        }
