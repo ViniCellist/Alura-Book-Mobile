@@ -54,6 +54,7 @@
     <section class="carousel">
         <h2 class="carousel__title">Novos Lançamentos</h2>
         <div class="swiper">
+            <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="./images/books/angular.png" alt="Livro sobre Angulgar">
@@ -93,13 +94,22 @@
                 </div>
                 ...
             </div>
-            <div class="swiper-pagination"></div>
+            
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
         </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
