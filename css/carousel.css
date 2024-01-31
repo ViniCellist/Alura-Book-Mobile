@@ -76,3 +76,27 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .carousel__title {
+        font-size: 1.5rem
+    }
+
+    .swiper-pagination {
+        margin: 2rem 0 3rem 0;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2rem auto;
+    }
+}
