@@ -69,7 +69,7 @@
     font-family: var(--fontPoppins);
     text-align: center;
     font-weight: 400;
-    color: var(--bg-white);
+    color: var(--color-blue);
     background-image: url(../images/banner/Email.png);
     background-repeat: no-repeat;
     background-position: 1rem;
