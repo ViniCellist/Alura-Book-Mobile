@@ -9,3 +9,44 @@
     color: #000000;
     font-weight: 400;
 }
+
+.icon-list {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .icon-list {
+        display: block;
+    }
+
+    .icon-list__title {
+        color: var(--bg-gray);
+        font-size: 0.875rem;
+        font-weight: 400;
+        margin: 1rem;
+    }
+
+    .footer__container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__container-title {
+        text-align: start;
+    }
+
+    .footer__list-item {
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer__list-anchor {
+        text-decoration: none;
+        font-size: 0.875rem;
+        color: var(--bg-darkgray);
+        font-weight: 400;
+        margin-left: 1rem
+    }
+}
