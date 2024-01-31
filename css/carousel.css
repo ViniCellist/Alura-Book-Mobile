@@ -39,6 +39,7 @@
     color: var(--color-orange);
     font-size: 1.125rem;
     font-weight: 700;
+    margin-top: 0.5rem;
 }
 
 .description__title-book {
