@@ -39,13 +39,10 @@
 
 .banner__notifications {
     background: var(--bg-white);
-    background: var(--color-blue-deg);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--color-blue);
     text-align: center;
     padding: 2.5rem 2rem;
-    box-shadow: 8px 8px 64px 8px rgba(0, 0, 0, 0.25);;
+    box-shadow: 1rem 1rem 1rem black;
 }
 
 .banner__notifications-title {
