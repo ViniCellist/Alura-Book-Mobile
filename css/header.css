@@ -67,3 +67,48 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        
+        
+        /*display none in mobile*/
+        .container__title, .options {
+            display: none;
+        }
+        
+@media screen and (min-width: 1024px) {
+        /*display none in tablet*/
+    #none, .header__menu-hamburger, .options__btns {
+        display: none;
+    }
+    
+    .container__title, .container__title-bold {
+        font-family: var(--fontJosefin);
+        font-size: 1.875rem;
+        display: block;
+    }
+
+    .container__title {
+        font-weight: 400;
+    }
+
+    .container__title-bold {
+        font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .options__item {
+        padding: 0 1rem;
+        text-transform: uppercase;
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: var(--bg-black);
+    }
+
+    .options__btns:checked ~ .list-menu {
+        display: block;
+    }
+}
