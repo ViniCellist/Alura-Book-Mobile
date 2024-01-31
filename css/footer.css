@@ -1,0 +1,11 @@
+.footer__container {
+    background-color: var(--bg-white);
+    padding: 1rem;
+}
+
+.footer__container-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: 400;
+}
