@@ -80,6 +80,9 @@
         display: none;
     }
     
+    .list-menu {
+            width: 20vw;
+        }
     .container__title, .container__title-bold {
         font-family: var(--fontJosefin);
         font-size: 1.875rem;
