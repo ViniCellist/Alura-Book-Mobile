@@ -20,3 +20,58 @@
     position: initial;
     margin: 0.5rem 0;
 }
+
+.card {
+    background: var(--bg-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0.625rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.description__title {
+    color: var(--color-orange);
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.description__title-book {
+    color: var(--color-blue);
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0.7rem 0;
+}
+
+.description__text {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card__btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
+
+.btns__item {
+    margin: 0 0.5rem;
+}
+
+.btns__anchor {
+    background-color: var(--color-orange);
+    padding: 1rem 2.3rem;
+    color: var(--bg-white);
+    font-weight: 700;
+    text-decoration: none;
+}
