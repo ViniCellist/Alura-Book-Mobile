@@ -6,6 +6,7 @@
     <title>Alura Books</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -49,5 +50,56 @@
         <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__search" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <section class="carousel">
+        <h2 class="carousel__title">Novos Lançamentos</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/books/angular.png" alt="Livro sobre Angulgar">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/acessibilidade.png" alt="Livro sobre Acessibilidade">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/apache-kafka.png" alt="Livro sobre Apache Kafka">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/arquitetura.png" alt="Livro sobre Arquitetura">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/construct-2.png" alt="Livro sobre Construct">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/gestao-2.png" alt="Livro sobre Gestão vol. 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/gestao.png" alt="Livro sobre Gestão vol. 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/guia-front-end.png" alt="Livro sobre Front-end">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/javascript.png" alt="Livro sobre JavaScript">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/liderança.png" alt="Livro sobre Liderança">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/mean.png" alt="Livro sobre mean">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/books/metricas-ageis.png" alt="Livro sobre Metricas Ageis">
+                </div>
+                ...
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>
