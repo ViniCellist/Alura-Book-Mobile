@@ -71,9 +71,17 @@
         </ul>
 
         <div class="header__container-nav">
-            <a href="#"><img src="images/icons/favorite.png" alt="Meus Favoritos" class="container__img" id="none"></a>
-            <a href="#"><img src="images/icons/sacola.png" alt="Carrinho de Compras" class="container__img"></a>
-            <a href="#"><img src="images/icons/profile.png" alt="Meu Perfil" class="container__img"></a>
+            <a href="#">
+                <img src="images/icons/favorite.png" alt="Meus Favoritos" class="container__img" id="none">
+            </a>
+            <a href="#" class="nav-link">
+                <img src="images/icons/sacola.png" alt="Carrinho de Compras" class="container__img">
+                <p class="header__container-nav-text">Minha sacola</p>
+            </a>
+            <a href="#" class="nav-link">
+                <img src="images/icons/profile.png" alt="Meu Perfil" class="container__img">
+                <p class="header__container-nav-text">Meu perfil</p>
+            </a>
         </div>
     </header>
 
@@ -87,127 +95,130 @@
 
     <section class="carousel">
         <h2 class="carousel__title">Novos Lançamentos</h2>
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/books/angular.png" alt="Livro sobre Angulgar">
+        <div class="carousel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/books/angular.png" alt="Livro sobre Angulgar">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/acessibilidade.png" alt="Livro sobre Acessibilidade">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/apache-kafka.png" alt="Livro sobre Apache Kafka">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/arquitetura.png" alt="Livro sobre Arquitetura">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/construct-2.png" alt="Livro sobre Construct">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/gestao-2.png" alt="Livro sobre Gestão vol. 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/gestao.png" alt="Livro sobre Gestão vol. 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/guia-front-end.png" alt="Livro sobre Front-end">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/javascript.png" alt="Livro sobre JavaScript">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/liderança.png" alt="Livro sobre Liderança">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/mean.png" alt="Livro sobre mean">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/metricas-ageis.png" alt="Livro sobre Metricas Ageis">
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/acessibilidade.png" alt="Livro sobre Acessibilidade">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/apache-kafka.png" alt="Livro sobre Apache Kafka">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/arquitetura.png" alt="Livro sobre Arquitetura">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/construct-2.png" alt="Livro sobre Construct">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/gestao-2.png" alt="Livro sobre Gestão vol. 2">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/gestao.png" alt="Livro sobre Gestão vol. 1">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/guia-front-end.png" alt="Livro sobre Front-end">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/javascript.png" alt="Livro sobre JavaScript">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/liderança.png" alt="Livro sobre Liderança">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/mean.png" alt="Livro sobre mean">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/metricas-ageis.png" alt="Livro sobre Metricas Ageis">
-                </div>
-                ...
-            </div>
-            
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-        <div class="card">
-            <div class="card__description">
-                <div class="description">
-                    <h3 class="description__title">Talvez você também se interesse por...</h3>
-                    <h2 class="description__title-book">Angular 11 e Firebase</h2>
-                    <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                </div>
-                <img src="images/cards/angular.png" alt="imagem Angular" class="description__img">
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
-            <div class="card__btns">
-                <ul class="btns">
-                    <li class="btns__item">
-                        <img src="images/icons/favorite.png" alt="favoritar livros">
-                    </li>
-                    <li class="btns__item">
-                        <img src="images/icons/sacola.png" alt="adicionar carrinho">
-                    </li>
-                </ul>
-                <a href="#" class="btns__anchor">Saiba Mais</a>
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                        <h3 class="description__title">Talvez você também se interesse por...</h3>
+                        <h2 class="description__title-book">Angular 11 e Firebase</h2>
+                        <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <img src="images/cards/angular.png" alt="imagem Angular" class="description__img">
+                </div>
+
+                <div class="card__btns">
+                    <ul class="btns">
+                        <li class="btns__item">
+                            <img src="images/icons/favorite.png" alt="favoritar livros">
+                        </li>
+                        <li class="btns__item">
+                            <img src="images/icons/sacola.png" alt="adicionar carrinho">
+                        </li>
+                    </ul>
+                    <a href="#" class="btns__anchor">Saiba Mais</a>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="carousel">
         <h2 class="carousel__title">Mais vendidos</h2>
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="./images/books/gestao.png" alt="Livro sobre Gestão vol. 1">
+        <div class="carousel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/books/gestao.png" alt="Livro sobre Gestão vol. 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/guia-front-end.png" alt="Livro sobre Front-end">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/javascript.png" alt="Livro sobre JavaScript">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/liderança.png" alt="Livro sobre Liderança">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/mean.png" alt="Livro sobre mean">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/books/metricas-ageis.png" alt="Livro sobre Metricas Ageis">
+                    </div>
+                    ...
                 </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/guia-front-end.png" alt="Livro sobre Front-end">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/javascript.png" alt="Livro sobre JavaScript">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/liderança.png" alt="Livro sobre Liderança">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/mean.png" alt="Livro sobre mean">
-                </div>
-                <div class="swiper-slide">
-                    <img src="./images/books/metricas-ageis.png" alt="Livro sobre Metricas Ageis">
-                </div>
-                ...
-            </div>
-            
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-        <div class="card">
-            <div class="card__description">
-                <div class="description">
-                    <img src="images/cards/estrelinhas.png" alt="">
-                    <h3 class="description__title">Autora do Mês</h3>
-                    <h2 class="description__title-book">Juliana Agarikov</h2>
-                    <p class="description__text">Analista de Sistemas e escritora, Juliana é especialista em Front-end.</p>
-                </div>
-                <img src="images/cards/dev.png" alt="imagem Angular" class="description__img">
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
-            <div class="card__btns">
-                <ul class="btns">
-                    <li class="btns__item">
-                        <img src="images/icons/favorite.png" alt="favoritar livros">
-                    </li>
-                    <li class="btns__item">
-                        <img src="images/icons/sacola.png" alt="adicionar carrinho">
-                    </li>
-                </ul>
-                <a href="#" class="btns__anchor">Saiba Mais</a>
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                        <img src="images/cards/estrelinhas.png" alt="">
+                        <h3 class="description__title">Autora do Mês</h3>
+                        <h2 class="description__title-book">Juliana Agarikov</h2>
+                        <p class="description__text">Analista de Sistemas e escritora, Juliana é especialista em Front-end.</p>
+                    </div>
+                    <img src="images/cards/dev.png" alt="imagem Angular" class="description__img">
+                </div>
+
+                <div class="card__btns">
+                    <ul class="btns">
+                        <li class="btns__item">
+                            <img src="images/icons/favorite.png" alt="favoritar livros">
+                        </li>
+                        <li class="btns__item">
+                            <img src="images/icons/sacola.png" alt="adicionar carrinho">
+                        </li>
+                    </ul>
+                    <a href="#" class="btns__anchor">Saiba Mais</a>
+                </div>
             </div>
         </div>
     </section>
