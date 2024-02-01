@@ -50,3 +50,14 @@
         margin-left: 1rem
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .icon-list {
+        border-left: 2px solid var(--bg-gray);
+        padding-left: 1rem;
+    }
+
+    .footer__container {
+        padding: 3rem 0;
+    }
+}
