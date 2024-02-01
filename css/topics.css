@@ -33,3 +33,9 @@
         margin: 0.3rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .topics {
+        padding: 3rem 30vw;
+    }
+}
